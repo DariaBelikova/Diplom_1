@@ -18,8 +18,6 @@ import static org.junit.Assert.assertTrue;
 
 @RunWith(MockitoJUnitRunner.class)
 public class BurgerTest {
-
-    private final static double DELTA = 0.00;
     @Mock
     private Bun bun;
     @Mock
